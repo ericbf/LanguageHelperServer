@@ -1,0 +1,31 @@
+{
+	"name": "language-helper-server",
+	"version": "0.0.1",
+	"description": "A server to listen on the port for the language helper app.",
+	"main": "index.ts",
+	"scripts": {
+		"start": "ts-node index.ts"
+	},
+	"author": "Eric Ferreira <eric@ferreira.life>",
+	"license": "UNLICENSED",
+	"devDependencies": {
+		"@types/express": "^4.17.2",
+		"@types/node": "^12.12.12",
+		"@types/socket.io": "^2.1.4",
+		"@types/uuid": "^3.4.6",
+		"ts-node": "^8.5.2",
+		"typescript": "^3.7.2"
+	},
+	"dependencies": {
+		"@types/wav": "^1.0.0",
+		"express": "^4.17.1",
+		"socket.io": "^2.3.0",
+		"uuid": "^3.3.3",
+		"wav": "^1.0.2"
+	},
+	"prettier": {
+		"useTabs": true,
+		"semi": false,
+		"arrowParens": "always"
+	}
+}
