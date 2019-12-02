@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "language-helper-server"
+version = "0.0.1"
+description = "This server listens for socket connections, stream PCM audio data from the connections, and write them to wav files. It is a component of a project for my CS Master's program."
+authors = ["Eric Ferreira <2483476+ericbf@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^2.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
