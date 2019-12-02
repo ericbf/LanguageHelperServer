@@ -2,7 +2,10 @@ import socket
 import sys
 import wave
 
-from thread import start_new_thread
+try:
+    from thread import start_new_thread
+except:
+    from _thread import start_new_thread
 
 host = "0.0.0.0"
 port = 8080
